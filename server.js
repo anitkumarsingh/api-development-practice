@@ -1,12 +1,14 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const bootcamps = require('./router/bootcamps');
+const logger = require('./middleware/logger');
 
 dotenv.config({ path: './config/config.env'});
 
 const PORT = process.env.PORT || 4000;
 
 const app = express();
+app.use(logger)
 app.use('/api/v1/bootcamps',bootcamps);
 
 
