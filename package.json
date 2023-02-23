@@ -1,0 +1,21 @@
+{
+  "name": "api-development-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=Production node server.js",
+    "dev":"NODE_ENV=Development nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anitkumarsingh/api-development-practice.git"
+  },
+  "keywords": [],
+  "author": "Anit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anitkumarsingh/api-development-practice/issues"
+  },
+  "homepage": "https://github.com/anitkumarsingh/api-development-practice#readme"
+}
